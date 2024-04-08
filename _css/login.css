@@ -1,1 +1,29 @@
 @charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    background-color: antiquewhite;
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 207, 130);
+}
+
+
+#elemento1 {
+    width: 250px;
+    height: 450px;
+    background-color: rgb(255, 211, 117);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
