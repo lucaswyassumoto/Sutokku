@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(215, 242, 250);
+    overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+    background-color: rgb(215, 239, 250);
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(130, 161, 255);
+}
+
+
+@media screen and (min-width: 401px) {
+    .mobile {display: none;}
+}
+
+@media screen and (max-width: 400px) {
+    .desktop {display: none;}
+}

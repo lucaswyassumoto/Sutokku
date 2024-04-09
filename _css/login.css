@@ -19,12 +19,16 @@ html, body {
 
 
 @media screen and (min-width: 401px) {
-    .mobile {display: none;}
+    .mobilelogin {display: none;}
 }
 
 @media screen and (max-width: 400px) {
-    .desktop {display: none;}
+    .desktoplogin {display: none;}
 }
+
+
+
+
 
 
 
@@ -43,7 +47,7 @@ figure .logo {
 
 .elemento1 {
     width: 250px;
-    height: 450px;
+    height: 430px;
     position: relative;
     background-color: rgb(117, 179, 255);
     margin-left: auto;
@@ -58,11 +62,13 @@ figure .logo {
 
 
 
+
+
 .login {
     text-align: center;
     font-family: Jost, sans-serif;
     font-size: 20px;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .campo1 {
@@ -84,6 +90,13 @@ figure .logo {
     height: 16px;
     margin-top: 50px;
 }
+
+.usuariologin:hover {
+    transition: 0.6s;
+    opacity: 100%;
+    background-color: rgb(222, 241, 255);
+}
+
 
 
 
@@ -110,6 +123,14 @@ figure .logo {
     margin-top: 50px;
 }
 
+.usuariosenha:hover {
+    transition: 0.6s;
+    opacity: 100%;
+    background-color: rgb(222, 241, 255);
+}
+
+
+
 
 
 
@@ -132,6 +153,8 @@ figure .logo {
     opacity: 100%;
     color: rgb(255, 64, 214);
 }
+
+
 
 
 
@@ -162,6 +185,9 @@ figure .logo {
     margin-top: 13px;
     color:rgb(64, 11, 81);
 }
+
+
+
 
 
 
