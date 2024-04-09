@@ -3,18 +3,18 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: rgb(215, 242, 250);
     overflow-x: hidden;
 }
 
 
 ::-webkit-scrollbar {
-    background-color: antiquewhite;
+    background-color: rgb(215, 239, 250);
     width: 9px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 207, 130);
+    background-color: rgb(130, 161, 255);
 }
 
 
@@ -28,13 +28,134 @@ html, body {
 
 
 
-#elemento1 {
-    width: 250px;
-    height: 450px;
-    background-color: rgb(255, 211, 117);
+.figurelogo {
+    text-align: center;
+}
+
+figure .logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: -60px;
+    margin-top: -10px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
-    margin-bottom: 150px;
+}
+
+.elemento1 {
+    width: 250px;
+    height: 450px;
+    position: relative;
+    background-color: rgb(117, 179, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 120px;
     border-radius: 10px;
+    text-align: center;
+}
+
+
+
+
+
+.login {
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+.campo1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    text-indent: 25px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.usuariologin {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    background-color: rgb(178, 203, 255);
+    border: 1px solid rgb(121, 121, 121);
+    width: 200px;
+    height: 16px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.campo2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    text-indent: 25px;
+    margin-top: 40px;
+    margin-bottom: -50px;
+}
+
+.usuariosenha {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    background-color: rgb(178, 203, 255);
+    border: 1px solid rgb(121, 121, 121);
+    width: 200px;
+    height: 16px;
+    margin-top: 50px;
+}
+
+
+
+
+
+.forgotpass {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    margin-top: 1px;
+}
+
+.forgotpass a {
+    text-decoration: none;
+    color: rgb(174, 0, 255);
+}
+
+.forgotpass a:hover {
+    transition: 0.5s;
+    opacity: 100%;
+    color: rgb(255, 64, 214);
+}
+
+
+
+
+.botaologin {
+    width: 160px;
+    height: 40px;
+    background-color: rgb(83, 123, 255);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.botaologin:hover {
+    transition: 0.6s;
+    opacity: 100%;
+    background-color: rgb(193, 126, 255);
+}
+
+.textobotao {
+    text-align: center;
+    font-family: WixMadeForDisplay, sans-serif;
+    font-size: 12px;
+    margin-top: 13px;
+    color:rgb(64, 11, 81);
 }
