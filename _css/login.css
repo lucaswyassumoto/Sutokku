@@ -116,8 +116,10 @@ figure .logo {
 
 .forgotpass {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 11px;
-    margin-top: 1px;
+    font-size: 9px;
+    margin-top: 2px;
+    text-align: right;
+    margin-right: 25px;
 }
 
 .forgotpass a {
@@ -130,6 +132,7 @@ figure .logo {
     opacity: 100%;
     color: rgb(255, 64, 214);
 }
+
 
 
 
@@ -165,7 +168,7 @@ figure .logo {
 
 
 .cadastrar {
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 30px;
 }
